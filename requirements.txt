@@ -1,0 +1,12 @@
+alive-progress==3.2.0
+itables==2.4.4
+kaleido==0.2.1
+keras==2.10.0            
+keras-tuner==1.4.6
+numpy==1.23.2
+pandas==2.2.3
+pingouin==0.5.5
+plotly==6.1.2
+python-dateutil==2.9.0
+scikit-learn==1.6.1
+tensorflow==2.10.0
