@@ -319,7 +319,7 @@ def plot_visual_comparison(best_items, significance_results, focus_on, groups, y
     for i in range(0, 23, 1):
         fig.add_vline(x=i+0.5, line_width=1)        
     for i in range(len(ORDER)+1):
-        fig.add_hline(y=-0.5 + len(groups)*(i), line_width=1)
+        fig.add_hline(y=-0.5 + len(groups)*(i), line_width=1 if i > 1 and i < len(ORDER) else 3)
 
     fig.update_layout(
         width=1400,
